@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Peralta' rel='stylesheet'>
+         <link href='https://fonts.googleapis.com/css?family=Kavoon' rel='stylesheet'>
+        <title>Snake Game</title>
+        <h1>SNAKE GAME</h1>
+    </head>
+        <style>
+            canvas{
+                
+                margin: 0 auto;
+                position: absolute;
+                top:15%;
+                border: 3px solid yellow;
+
+
+            }
+            body{
+                display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+            }
+            h1{
+                font-size: 80px;
+                color: yellow;
+                position: absolute;
+                top:0%;
+                margin-top: 0;
+                font-family: 'Kavoon';
+            }
+            .sp{
+                position: absolute;
+                top: 2%;
+                left:2%;
+
+            }
+            .button {
+                background-color: #009933;
+                height: 50px;
+                width: 90px;
+                font-size: 20px;
+                color:yellow;
+                font-family: 'Peralta';
+            }
+           
+        </style>
+    
+    <body>
+
+    <canvas id="snake1" width="500" height="560"></canvas>
+        
+      <div class="sp">
+    <button type="button" class="button" onclick="speed1(170)">Level:1</button><br><br>
+    <button type="button" class="button" onclick="speed1(100)">Level:2</button><br><br>
+   <button type="button" class="button" onclick="speed1(50)">Level:3</button>
+   </div>
+    <script src="snakef.js">
+          </script> 
+
+     
+</body>
+</html>
